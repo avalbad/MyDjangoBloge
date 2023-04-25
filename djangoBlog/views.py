@@ -7,7 +7,7 @@ def about(request):
 def home(request):
     return render(request,'home.html')
 
-    # return HttpResponse('home')
+    return HttpResponse('home')
 
-# def sst(request):
-    # return HttpResponse ('avalbad')
+def sst(request):
+    return HttpResponse ('avalbad')

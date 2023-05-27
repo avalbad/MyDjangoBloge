@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% csrf_token %}
+
+
+{% block title %}
+   <h1>accounts</h1>
+{% endblock %}
+
+{% block content %}
+ <header>
+   <nav>
+     <ul>
+      <li> <a href="{% url 'accounts:signup' %}" class="active">SIG NUP</a> </li>
+     <li> <a href="{% url 'accounts:login' %}" class="active">LOG IN</a> </li>
+    </ul>
+   </nav>
+ </header>
+
+{% endblock %}

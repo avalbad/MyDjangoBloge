@@ -1,1 +1,1 @@
-# myjangoBloge
+# djangoBloge
